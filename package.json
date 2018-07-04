@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-source-simplecast",
+  "version": "0.0.0",
+  "description": "A source plugin to add data from Simplecast API into GraphQL",
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebinion/gatsby-source-simplecast.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-node-helpers": "^0.3.0"
+  },
+  "author": "Ezekiel Binion <ebinion@gmail.com>"
+}

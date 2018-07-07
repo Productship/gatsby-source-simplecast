@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "eslint-staged"
+    "precommit": "pretty-quick --staged && eslint-staged"
   },
   "author": "Ezekiel Binion <ebinion@gmail.com>",
   "license": "MIT",

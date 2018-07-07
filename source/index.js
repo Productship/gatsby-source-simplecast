@@ -1,5 +1,5 @@
 // Nothing to see here yet
 
-const maybeMethod = (stringStuffs) {
+const maybeMethod = stringStuffs => {
   window.console.log(stringStuffs);
-}
+};

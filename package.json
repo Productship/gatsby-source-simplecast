@@ -1,6 +1,9 @@
 {
   "name": "gatsby-source-simplecast",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=10.5.0"
+  },
   "description": "A source plugin to add data from Simplecast API into GraphQL",
   "main": "./source/index.js",
   "repository": {

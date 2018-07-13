@@ -1,0 +1,7 @@
+extends: "standard"
+plugins:
+  - "node"
+rules:
+  semi: "error"
+  quotes: ["error", "single"]
+  eqeqeq: "error"

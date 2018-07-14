@@ -11,7 +11,8 @@
     "url": "https://github.com/ebinion/gatsby-source-simplecast.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint source/** --fix",
+    "test": "npm run lint",
     "precommit": "lint-staged"
   },
   "lint-staged": {

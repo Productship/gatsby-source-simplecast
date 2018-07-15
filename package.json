@@ -11,7 +11,9 @@
     "url": "https://github.com/ebinion/gatsby-source-simplecast.git"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint source/** --fix",
+    "build": "npx babel source -d build && npx minify build -d build",
+    "develop": "npx babel source -d build --watch",
+    "lint": "npx eslint source/** --fix",
     "test": "npm run lint",
     "precommit": "lint-staged"
   },
@@ -28,6 +30,10 @@
     "gatsby-node-helpers": "^0.3.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.4.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",

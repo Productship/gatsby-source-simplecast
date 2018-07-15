@@ -1,7 +1,11 @@
+env:
+  node: true
 extends: "standard"
 plugins:
   - "node"
 rules:
   semi: "error"
-  quotes: ["error", "single"]
+  quotes:
+    - "error"
+    - "single"
   eqeqeq: "error"

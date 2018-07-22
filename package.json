@@ -23,9 +23,7 @@
     "precommit": "lint-staged"
   },
   "husky": {
-    "hooks": {
-      "precommit": "git rm gatsby-node.js"
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "*.{js}": [

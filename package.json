@@ -22,9 +22,6 @@
     "test": "npm run lint",
     "precommit": "lint-staged"
   },
-  "husky": {
-    "hooks": {}
-  },
   "lint-staged": {
     "*.{js}": [
       "prettier --write",

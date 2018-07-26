@@ -10,6 +10,20 @@ Info to come
 
 Examples to come
 
+```
+// In your gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: "gatsby-source-simplecast",
+      options: {
+        key: <Simplecast API key>,
+      }
+    }
+  ],
+};
+```
+
 ## Tests
 
 `npm test`

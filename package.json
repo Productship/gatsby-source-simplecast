@@ -5,14 +5,19 @@
     "node": ">=10.5.0"
   },
   "description": "A source plugin to add data from Simplecast API into GraphQL",
-  "main": "./build/gatsby-node.js",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "simplecast"
+  ],
+  "main": "gatsby-node.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ebinion/gatsby-source-simplecast.git"
   },
   "scripts": {
-    "build": "npx babel source -d build && npx minify build -d build",
-    "develop": "npx babel source -d build --watch",
+    "build": "npx babel source -d .",
+    "develop": "npx babel source -d . --watch",
     "lint": "npx eslint source/** --fix",
     "test": "npm run lint",
     "precommit": "lint-staged"

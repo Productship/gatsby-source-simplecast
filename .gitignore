@@ -1,3 +1,11 @@
+# gatsby
+.cache/
+public/
+
+# misc
+.DS_Store
+.idea/
+
 # Logs
 logs
 *.log
@@ -11,23 +19,25 @@ pids
 *.seed
 *.pid.lock
 
+# nyc test coverage
+.nyc_output
+
 # Dependency directories
 node_modules/
 
-# Optional npm cache directory
+# Caches
 .npm
-
-# Optional eslint cache
 .eslintcache
 
 # Optional REPL history
 .node_repl_history
 
-# Yarn Integrity file
-.yarn-integrity
+# Output of 'npm pack'
+*.tgz
 
 # dotenv environment variables file
 .env
 
-# Build
-build
+# npm dev
+/*.js
+!index.js

@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "npx babel source -d .",
-    "develop": "npx babel source -d . --watch",
+    "develop": "npx babel ./source --out-dir . --watch",
     "lint": "npx eslint source/** --fix",
     "test": "npm run lint",
     "precommit": "lint-staged"
@@ -32,6 +32,7 @@
   "author": "Ezekiel Binion <ebinion@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "gatsby-node-helpers": "^0.3.0"
   },
   "devDependencies": {

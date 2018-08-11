@@ -38,6 +38,6 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# npm dev
+# npm dev (ignore any folders that are auto built into root)
 /*.js
-!index.js
+helpers
